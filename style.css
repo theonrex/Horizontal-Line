@@ -1,0 +1,21 @@
+line  {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #E81C2E;
+}
+
+line::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    left: 25%;
+    bottom: 0;
+    background: #E81C2E;
+}

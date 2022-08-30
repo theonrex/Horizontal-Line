@@ -1,4 +1,4 @@
-line  {
+.line  {
     display: inline-block;
     margin-bottom: 10px;
     padding-bottom: 5px;
@@ -10,7 +10,7 @@ line  {
     color: #E81C2E;
 }
 
-line::after {
+.line::after {
     position: absolute;
     content: "";
     width: 50%;
